@@ -1,0 +1,129 @@
+.Container {
+  width: 100%;
+}
+.Main {
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.Main h1 {
+  color: #5a5ba3;
+  font-size: 20px;
+}
+
+.blockCenter {
+  justify-content: center;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.blockChoice {
+  display: flex;
+  justify-content: center;
+}
+.blockResult {
+  display: flex;
+  justify-content: center;
+}
+
+.blockResult h6 {
+  font-size: 24px;
+  margin: 10px;
+  color: #5a5ba3;
+  display: inline-grid;
+}
+
+.resultSpan {
+  font-size: 10px;
+}
+.choice {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: 0 10px;
+  background-color: #5a5ba3;
+}
+
+.choice svg {
+  margin-top: 15px;
+}
+
+.choice svg:active {
+  fill: #cfbfee;
+}
+
+.choice svg:hover {
+  fill: #cfbfee;
+}
+.imgChoice {
+  width: 60px;
+  margin: 20px;
+}
+
+.btnWallet {
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  width: 66px;
+  text-align: center;
+}
+
+.blockWallet {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.blockWallet h5 {
+  color: #fff;
+}
+
+.blockBid {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*  */
+.blockTittle {
+  display: flex;
+  justify-content: center;
+}
+.Button {
+  background-color: #5a5ba3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0px;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #5a5ba3;
+  height: 45px;
+}
+
+.blockSigner {
+  display: block;
+  text-align: left;
+}
+
+.blockSigner h6 {
+  font-size: 16px;
+  margin: 10px;
+  color: #5a5ba3;
+}
+.witelist_div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.signed_img {
+  width: 20px;
+  height: 20px;
+}
