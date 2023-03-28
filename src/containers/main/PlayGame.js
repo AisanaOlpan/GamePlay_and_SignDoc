@@ -86,7 +86,7 @@ const SimpleStorage = () => {
 
     const valueWei = ethers.utils.parseUnits(valueBNB);
     console.log(valueWei);
-    const options = { value: valueWei, gasLimit: 70000 };
+    const options = { value: valueWei, gasLimit: 100000 };
 
     if (contract != null) {
       const res = await contract.playGame(param, options);
